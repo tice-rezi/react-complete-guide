@@ -16,11 +16,6 @@ const StyledDiv = styled.div`
 `;
 
 const person = (props) => {             // --> functional component
-    const style = {
-        '@media (min-width: 500px)': {     // <-- media queries
-            width: '450px'
-        }
-    };
     return (
         //<div className="Person" style={style}>
         <StyledDiv>
