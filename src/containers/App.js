@@ -60,6 +60,7 @@ class App extends Component {     //--> class based component which extends "Com
     return (
       <div className={classes.App}>
         <Cockpit
+          title= {this.props.appTitle}
           showPersons={this.state.showPersons}
           persons={this.state.persons}
           clicked={this.togglePersonsHandler} />
